@@ -1,5 +1,5 @@
 /**
- 
+
  # JavaScript DOM
   - Dom Stands for document object model 
   - Html Dom is a standard object model and programming interface for HTML
@@ -58,7 +58,42 @@
   - document.title	             -    Returns the <title> element	
   - document.URL		         -    Returns the complete URL of the document
 
+ # DOM Element
+  - const element = document.getElementById("intro");     - getting element by passing id
+  - const element = document.getElementsByTagName("p");   - getting element by passing a tag name
+  - const x = document.getElementById("main");
+     |_ const y = x.getElementsByTagName("p");    // getting the particular tag from main p
+  - const x = document.getElementsByClassName("intro");   - getting element by their class name
+  - const x = document.querySelectorAll("p.intro");       - getting element by css selectors
+  - const x = document.forms["frm1"];                     - getting element by object collections
 
+ # DOM HTML
+  - document.getElementById(id).innerHTML = new HTML      - changing direct value with assigment
+  - document.getElementById(id).attribute = new value     - changing html attribute value example image
+  - document.getElementById("myImage").src = "landscape.jpg";  - example of image changing
+  - document.getElementById("demo").innerHTML = "Date : " + Date(); - changing dynamic content
+  - document.write(Date());                               - This is used to write the content
+
+ # DOM FORMS
+  - Check on w3 school about that.
+
+ # DOM CSS
+  - document.getElementById(id).style.property = new style  - Putting css in particular dom element
+  - document.getElementById("p2").style.color = "blue";     - Example of DOM CSS
+
+ # DOM Element
+  - Check on w3 school about that.
+
+ # DOM Event
+  - onclick - <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+  - document.getElementById("myBtn").onclick = displayDate;  - Also used on click of a button
+  - onload - work when the page is loading
+  - onchange - works when anything changes
+  - onmouseover - works when mouse moves to particular position
+  - onmouseout - workd when mouse moves out to particular position
+
+ # DOM Event listner
+  - 
 
 
 

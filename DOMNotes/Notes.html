@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>DOM | Hari</title>
-  </head>
-  <body>
-      <h2>HTML DOM</h2>
-      <p id='root'></p>
-      <p id='url'></p>
-      <script src="./DOM.js"></script>
-  </body>
+
+<head>
+  <title>DOM | Hari</title>
+</head>
+
+<body onload="myMessage()">
+  <h2>HTML DOM</h2>
+  <p id='root'>Hi I am from root</p>
+  <p id='url'></p>
+  <p class="intro">Hello World!</p>
+  <p onclick="changeText(this)">Click on this text!</p>
+  <p id='demo'></p>
+  <button onclick="displayDate()">The time is?</button>
+  Enter your name: <input type="text" id="fname" onchange="upperCase()">
+  <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+    Mouse Over Me</div>
+
+  <script src="./DOM.js"></script>
+</body>
+
 </html>
